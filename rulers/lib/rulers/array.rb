@@ -5,4 +5,5 @@ class Array
 
   def product(start = 1)
     inject(start, &:*)
+  end
 end
